@@ -17,4 +17,5 @@ function getLetter(letter){
 function generateRandomWord() {
     var words = ["armadillo", "beautiful", "calibrate", "derelict", "empathy", "frugal", "giraffe", "humiliate", "injurious", "judicial", "kangaroo", "laughter", "mitochondria", "nebulous", "ostracize", "phlegm", "query", "randomize", "satiate", "testosterone", "unicorn", "vendetta", "whirlpool", "xenon", "yellowtail", "zoology"];
     var randomWord = words[Math.floor(Math.random() * words.length) + 1];
+    return randomWord;
 }
